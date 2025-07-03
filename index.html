@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Welcome | Bala Naga Sai Kumar Vetsa</title>
   <style>
     body {
@@ -13,7 +13,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
+      flex-direction: column;
     }
     .welcome-container {
       text-align: center;
@@ -21,7 +22,8 @@
       padding: 40px;
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      max-width: 600px;
+      max-width: 800px;
+      width: 90%;
     }
     h1 {
       font-size: 2.5rem;
@@ -42,6 +44,7 @@
       cursor: pointer;
       text-decoration: none;
       transition: background-color 0.3s;
+      margin-top: 20px;
     }
     .btn:hover {
       background-color: #0056b3;
@@ -62,52 +65,46 @@
 <body>
   <div class="welcome-container">
     <h1>Welcome to My Personal Website</h1>
-    <p>Hello! I'm Bala Naga Sai Kumar Vetsa, an enthusiastic learner in AI & ML. Scroll down to explore more about me.</p>
+    <p>Hello! I'm Bala Naga Sai Kumar Vetsa, an enthusiastic learner in AI & ML.</p>
     <button id="moreBtn" class="btn" onclick="showResume()">Click Here for More Details</button>
 
     <div class="resume-section">
-      <h2>Bala Naga Sai Kumar Vetsa - Resume</h2>
-      <p>📞 +91 8309974727</p>
-      <p>✉️ <a href="mailto:balanagasaikumarvetsa@gmail.com">balanagasaikumarvetsa@gmail.com</a></p>
-      <p>📍 Perikeedu, Krishna District, 521105</p>
-      <p>🔗 <a href="https://linkedin.com/in/bala-naga-sai-kumar-vetsa-a13aa9258" target="_blank">LinkedIn Profile</a></p>
+      <h2>Resume</h2>
+      <p><strong>📞</strong> +91 8309974727</p>
+      <p><strong>✉️</strong> <a href="mailto:balanagasaikumarvetsa@gmail.com">balanagasaikumarvetsa@gmail.com</a></p>
+      <p><strong>📍</strong> Perikeedu, Krishna District, 521105</p>
+      <p><strong>🔗</strong> <a href="https://linkedin.com/in/bala-naga-sai-kumar-vetsa-a13aa9258" target="_blank">LinkedIn Profile</a></p>
 
       <h3>Professional Summary</h3>
-      <p>Dedicated and detail-oriented undergraduate specializing in Artificial Intelligence and Machine Learning. Eager to apply programming and analytical skills to solve real-world problems.</p>
+      <p>Undergraduate student in AI & ML, passionate about solving real-world problems using technology.</p>
 
       <h3>Education</h3>
       <ul>
-        <li><strong>B.Tech – CSE (AI & ML)</strong>, Ramachandra College of Engineering – CGPA: 76.14%</li>
+        <li><strong>B.Tech – CSE (AI & ML)</strong>, Ramachandra College – 76.14%</li>
         <li><strong>Intermediate – MPC</strong>, NRI Junior College – 95%</li>
         <li><strong>SSC</strong>, Sri Chaitanya EM High School – 100%</li>
       </ul>
 
-      <h3>Technical Skills</h3>
+      <h3>Skills & Certifications</h3>
       <ul>
-        <li><strong>Languages:</strong> Python, C, HTML, CSS</li>
-        <li><strong>Databases:</strong> SQL</li>
-        <li><strong>Soft Skills:</strong> Critical Thinking, Teamwork, Zeal</li>
-        <li><strong>Languages Known:</strong> English, Telugu</li>
-      </ul>
-
-      <h3>Certifications</h3>
-      <ul>
-        <li>C Programming Bootcamp – SimpliLearn</li>
-        <li>Python for Beginners – SimpliLearn</li>
+        <li>Languages: Python, C, HTML, CSS</li>
+        <li>Database: SQL</li>
+        <li>Soft Skills: Problem Solving, Teamwork, Zeal</li>
+        <li>Certifications: C Programming (SimpliLearn), Python for Beginners</li>
       </ul>
 
       <h3>Internship</h3>
-      <p><strong>Data Analysis and Model Development – Excler</strong><br>Worked with ML workflows including data preprocessing.</p>
+      <p>Data Analysis & Model Development – Excler</p>
 
-      <h3>Projects</h3>
+      <h3>Project</h3>
       <ul>
-        <li><strong>Emoji Prediction:</strong> Used Python and ML libraries to predict emojis from text input.</li>
+        <li>Emoji Prediction using Python & ML libraries</li>
       </ul>
 
       <h3>Personal Info</h3>
       <ul>
-        <li><strong>DOB:</strong> 20-07-2005</li>
-        <li><strong>Hobbies:</strong> Video Editing, Playing Cricket</li>
+        <li>Date of Birth: 20-07-2005</li>
+        <li>Hobbies: Video Editing, Cricket</li>
       </ul>
     </div>
   </div>
